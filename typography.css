@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Poppins&display=swap');
+/* font-family: 'DM Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Poppins&family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+html{ 
+    --font-1: "Varela Round", sans-serif;
+    --font-2: "Raleway";
+    --font-3: "Cookie";
+    --font-4: "Damion";
+}
+
+@media (max-width: 700px) { 
+    html{ --text-title: 56px;
+    }
+}
+    
+.text-title{
+    font-size: var(--text-title)
+}
+
